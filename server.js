@@ -24,7 +24,7 @@ app.post('/subscribe', async (req, res) => {
 
   try {
     const response = await axios.post('https://api.brevo.io/v1/sendEmail', {
-      from: 'your-email@example.com',
+      from: 'prabhat8701.ps@gmail.com',
       to: email,
       subject: 'Thanks for Subscribing',
       text: `Hello ${name}, Thanks for subscribing!`,
